@@ -1,0 +1,72 @@
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  
+  
+  
+  
+  .card {
+    padding: 2em;
+  }
+  
+  .read-the-docs {
+    color: #888;
+  }
+  .active{
+    color: red;
+  }
+
+  .blackMode {
+    background-color: black;
+    color: white;
+  }
+
+
+  .logout_btn{
+    position: fixed;
+    z-index: 1111111111111111111111111111;
+    right: 1%;
+    top: 9%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 3px solid red;
+    border-radius: 20px;
+    padding: 4px;
+  }
+
+  .logout_btn:hover {
+     color: red;
+     font-size: 18px;
+    
+  }
+
+
+
+  .form-submittt {
+    background-color: aqua;
+    background: burlywood;
+  }
+
+
+  /* App.css fayli */
+
+.loader {
+  border: 16px solid #f3f3f3; /* Fozilatli rang */
+  border-top: 16px solid #3498db; /* To'q rang */
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  animation: spin 2s linear infinite;
+  margin: 0 auto;
+  margin-top: 200px; /* Sizga mos keladigan o'rinda joylashtiring */
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

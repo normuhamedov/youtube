@@ -1,0 +1,77 @@
+.navbar {
+  width: 100%;
+  position: sticky;
+  top: 0px;
+  padding-bottom: 20px;
+  z-index: 11111111111;
+}
+
+.navbar_white{
+    background: #ffffffe5;
+    
+  }
+  .nav__burger {
+    width: 40px;
+    height: 40px;
+  }
+  .nav__enner {
+    width: 100%;
+  }
+  .nav__input {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    padding: 12px 0 12px 23px;
+    outline: none;
+    background: #ebebeb;
+    border-radius: 22px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #30384c;
+    opacity: 0.4;
+  }
+  .nav__vedio {
+    width: 37px;
+    height: 25px;
+  }
+  .nav__cubik {
+    width: 37px;
+    height: 25px;
+  }
+  .nav__qun {
+    width: 37px;
+    height: 25px;
+  }
+  .nav__log {
+    opacity: 0.3;
+  }
+
+
+.user-dark{
+  display: flex;
+  font-size: 30px;
+  
+}
+
+
+
+.dark-button svg {
+  width: 25px;
+  height: 25px;
+  transition: all 1s ease-in-out;
+}
+
+.dark-button:hover svg {
+  transform: rotate(250deg);
+}
+
+
+
+.blackModeeeee{
+  background: black;
+  color: white;
+}
+
+.loggo{
+  
+}
