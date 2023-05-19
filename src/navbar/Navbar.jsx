@@ -6,7 +6,6 @@ import { CiDark } from 'react-icons/ci'
 import { MdOutlineLightMode, MdOutlineNotificationsNone } from 'react-icons/md'
 
 import userpic from "./imges/userpic.svg";
-import logo from "./imges/logo.svg";
 
 import { useContext } from "react";
 import "./Navbar.css";
